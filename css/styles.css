@@ -84,7 +84,14 @@ p {
   margin: 0;
 }
 
-@media (max-width: 480px) {
+.image-text:hover {
+  background: #ffffff;
+  color: #4aaaa5;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
   .navbar-title {
     margin-left: 0;
   }
